@@ -37,7 +37,7 @@ int main(){
 
     std::cout<<"------------------"<<std::endl;
     std::cout<<"conjunto A Intersecion B"<<std::endl;
-    I = A.Intersection(B);
+    I = A.Intersection(A);
     I.printElements();
 
     std::cout<<"------------------"<<std::endl;
@@ -54,5 +54,11 @@ int main(){
     std::cout<<"conjunto A Producto Natural B"<<std::endl;
     NP = A.naturalProduct(B);
     NP.printElements();
+
+    std::cout<<"Eliminado Elementos del conjunto B"<<std::endl;
+    B.Baja();
+    B.Baja(2);
+    std::cout<<"------------------"<<std::endl;
+    B.printElements();
     return 0;
 }

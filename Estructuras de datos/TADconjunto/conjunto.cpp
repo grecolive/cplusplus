@@ -61,7 +61,7 @@ std::string Conjunto::Baja(){
     return bajado;
 }
 
-std::string Conjunto::Baja(int posicion){
+/* std::string Conjunto::Baja(int posicion){
     if (posicion < 0 || posicion > this->numberElement - 1)
         return NULL;
     std::string *acopy = this->elements;
@@ -70,6 +70,23 @@ std::string Conjunto::Baja(int posicion){
     this->elements = new std::string[this->numberElement];
     copyData(acopy, 0, posicion, 0);
     copyData(acopy, (posicion+1), (this->numberElement+1), 1);
+    return bajado;
+} */
+
+std::string Conjunto::Baja(int posicion){
+    if (posicion < 0 || posicion > this->numberElement - 1)
+        return NULL;
+    std::string bajado = this->elements[posicion];
+    this->numberElement--;
+    std::string *auxElements = new std::string[this->numberElement];
+    for(int i = 0; i < posicion; i++){
+        auxElements[i] = this->elements[i];
+    }
+    for(int i = posicion; i < this->numberElement; i++){
+        auxElements[i] = this->elements[i+1];
+    }
+    delete[] this->elements;
+    this->elements = auxElements;
     return bajado;
 }
 
