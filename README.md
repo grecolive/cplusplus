@@ -2,12 +2,12 @@
 
 ¡Bienvenido a nuestro repositorio de C++! 
 
-Estamos aquí para ayudarte a solucionar los desafíos de programacion en este lenguaje y algunos mas. encontraras recursos útiles para mejorar sus habilidades académicas, destrezas profesionales, y experiencia universitaria. 
+Estamos aquí para ayudarte a solucionar los desafíos de programación el lenguaje C++. encontraras recursos útiles para mejorar sus habilidades académicas, destrezas profesionales, y experiencia universitaria. 
 
 ## Recursos 
 Encontrarás recursos útiles en este repositorio para ayudarte a aprobar con éxito tus cursos, mejorar tu currículo y prepararte para el mundo laboral. Estos recursos incluyen: 
 
-* C++ Basico (para principantes)
+* C++ Básico (para principiantes)
 * C++ Orientado a Objetos
 * Algoritmos en C++
 * Estructuras de datos
@@ -18,4 +18,6 @@ Encontrarás recursos útiles en este repositorio para ayudarte a aprobar con é
 
 Gracias por visitar el repositorio . 
 
-¡Esperamos que te ayude a aprovechar al máximo tu experiencia universitaria!
+¡Esperamos que te ayude a aprovechar al máximo tu experiencia!
+
+¡Recuerda dejar tu estrella!
